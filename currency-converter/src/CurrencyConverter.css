@@ -1,0 +1,71 @@
+/* CurrencyConverter.css */
+
+/* Style for the container */
+.currency-converter-container {
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #f7f7f7;
+  }
+  
+  /* Style for the headings */
+  .CurrencyConverter h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #333;
+  }
+  
+  /* Style for input fields */
+  .CurrencyConverter label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #555;
+  }
+  
+  .CurrencyConverter input[type="number"],
+  .CurrencyConverter input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  /* Style for the convert button */
+  .CurrencyConverter button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  .CurrencyConverter button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Style for the result paragraph */
+  .CurrencyConverter p {
+    margin-top: 20px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  /* Additional styling for the container */
+  .App {
+    text-align: center;
+    padding: 40px;
+  }
+  
+  /* Add some margin to the whole app for better spacing */
+  .CurrencyConverter + .CurrencyConverter {
+    margin-top: 20px;
+  }
